@@ -52,10 +52,9 @@ const estilo = {
   container: {
     fontFamily: "Arial",
     padding: "2rem",
-    textAlign: "center",
-    height: "100vh",     // ⬅️ aqui
-    width: "100vw"       // ⬅️ aqui
-
+    textAlign: "center" as const,
+    height: "100vh",
+    width: "100vw"
   },
   titulo: {
     fontSize: "2.5rem",
